@@ -12,5 +12,7 @@ public class reverseString{
         }
 
         System.out.println(rev);
+
+        ui.close();
     }
 }

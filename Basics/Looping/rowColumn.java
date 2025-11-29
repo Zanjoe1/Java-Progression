@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class rowcol{
+public class rowColumn{
     public static void main(String[]args){
         Scanner ui = new Scanner(System.in);
+
         System.out.println("number of rows");
         int row = ui.nextInt();
 
@@ -32,5 +33,6 @@ public class rowcol{
         }
 
         System.out.println("\nsum of all is " + sum);
+        ui.close();
     }
 }
